@@ -26,8 +26,11 @@
   background-color: #C7CCC9;
 }
 
-.img1 {
-  width: 240px;
-  height: auto;
-  display: block;
+.imgrotate {
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg);
+    width: 240px;
+    height: auto;
+    display: block;
 }
