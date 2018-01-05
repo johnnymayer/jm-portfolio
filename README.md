@@ -1,4 +1,4 @@
-#Johnny Mayer Portfolio, __01.05.2018__
+# Johnny Mayer Portfolio, __01.05.2018__
 
 ## Synopsis
 
