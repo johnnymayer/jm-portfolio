@@ -1,8 +1,6 @@
 @media screen and (max-width: 991px) {
   h1, h2, h3 {
-    font-family: cursive;
-    font-kerning: none;
-    font-stretch: extra-condensed;
+    font-family: 'Press Start 2P', cursive;
   }
 }
 
@@ -19,6 +17,27 @@
     margin-right: auto;
     width: 180px;
     height: auto;
+    float: none;
+  }
+}
+
+.image2 {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .image1 {
+    display:none;
+  }
+
+  .image2 {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h1, h2, h3 {
+    font-family: 'Shrikhand', cursive;
   }
 }
 
@@ -39,8 +58,6 @@
     float: none;
   }
 }
-
-
 
 .jumbotron2 {
   margin: auto;
